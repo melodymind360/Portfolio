@@ -1,0 +1,8 @@
+    .bg-image-container {
+        background-image: url('path/to/your/image.jpg'); /* Replace with your image path */
+        background-size: cover; /* Ensures the image covers the entire container */
+        background-position: center center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents image repetition */
+        height: 100vh; /* Example: make it full viewport height, adjust as needed */
+        width: 100%; /* Ensure it takes full width */
+    }
