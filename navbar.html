@@ -5,12 +5,7 @@
         <!-- Website or brand name (usually links back to the home page) -->
         <a class="navbar-brand" href="#">Navbar</a>
 
-        <!-- Button that shows up on smaller screens (the "hamburger" menu) -->
-        <!-- data-bs-toggle="collapse" and data-bs-target="#navbarNavAltMarkup"
-             connect this button to the collapsible menu below -->
-        <!-- aria-controls="navbarNavAltMarkup" tells screen readers what it controls -->
-        <!-- aria-expanded="false" changes to true when the menu is open -->
-        <!-- aria-label gives a clear name so screen readers announce "Toggle navigation" -->
+       
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <!-- The icon inside the button (the 3-line "hamburger") -->
@@ -18,13 +13,23 @@
         </button>
 
         <!-- Collapsible navigation area (hidden on small screens until toggled) -->
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
 
             <!-- Navigation links -->
             <!-- aria-current="page" tells screen readers that "Home" is the active page -->
             <div class="navbar-nav">
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                <a class="nav-link" href="Projects.html">Projects</a>
+               
+              
+                </a>
+                 <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Projects</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="project 1.html">Project 1</a></li>
+            <li><a class="dropdown-item" href="project 2.html">Project 2</a></li>
+            <li><a class="dropdown-item" href="project 3.html">Project 3</a></li>
+          </ul>
+        </li>
                 
             </div>
         </div>
